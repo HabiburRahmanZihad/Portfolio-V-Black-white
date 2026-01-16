@@ -1,0 +1,11 @@
+/* Custom mobile menu transitions and fixes */
+#mobile-menu {
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(1.05);
+}
+#mobile-menu.show {
+  opacity: 1;
+  pointer-events: auto;
+  transform: scale(1);
+}
